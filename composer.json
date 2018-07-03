@@ -1,0 +1,21 @@
+{
+    "name": "taufiqrahman/yii2-apirestlog",
+    "description": "Description",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taufiq Rahman",
+            "email": "rahman.taufiq@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rahmansoft\\apirestlog\\": ""
+        }
+    }
+}

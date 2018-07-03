@@ -17,5 +17,7 @@
         "psr-4": {
             "rahmansoft\\apirestlog\\": ""
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

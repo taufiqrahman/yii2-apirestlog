@@ -12,12 +12,12 @@ use yii\base\Behavior;
 use yii\web\Response;
 use yii\web\ResponseEvent;
 //use common\models\ApiLog;
-use Rahmansoft\Apirestlog\models\ApiLog;
+use rahmansoft\apirestlog\models\ApiLog;
 use yii\rest\Controller;
 
 
 
-class restlog extends Behavior
+class Restlog extends Behavior
 {
     public $app_name;
     public $UrlName;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rahmansoft\Apirestlog\models;
+namespace rahmansoft\apirestlog\models;
 use Yii;
 
 

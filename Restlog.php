@@ -11,8 +11,7 @@ use Yii;
 use yii\base\Behavior;
 use yii\web\Response;
 use yii\web\ResponseEvent;
-//use common\models\ApiLog;
-use rahmansoft\apirestlog\models\ApiLog;
+use Rahmansoft\Apirestlog\models\ApiLog;
 use yii\rest\Controller;
 
 
@@ -37,7 +36,7 @@ class Restlog extends Behavior
 
             $response = $event->sender;
             $status = $response->data['status'];
-            //var_dump($status);die();
+            //var_dump($response->data);die();
             if ($status !== 'success') {
                 if ($this->LOG_ON_ERROR) {
 

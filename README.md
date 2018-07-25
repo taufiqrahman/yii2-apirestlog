@@ -52,3 +52,18 @@ class SomeController extends Controller
         return $behaviors;
     }
 ```
+To access the module, you need to add this to your application configuration:
+
+    ......
+    'modules' => [
+        'rahman'=>[
+                    'class'=>'rahmansoft\apirestlog\Module',
+                ],
+    ],
+    ......
+
+Add the new menu item to your navbar:
+
+    ......
+    ['label' => 'Log', 'url' => ['/rahman/wslog']],
+    ......

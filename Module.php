@@ -5,20 +5,23 @@ namespace rahmansoft\apirestlog;
 /**
  * kontrak module definition class
  */
+use yii;
+
 class Module extends \yii\base\Module
+
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
-   // public $controllerNamespace = 'backend\modules\kontrak\controllers';
-
+    public $defaultRoute = 'wslog';
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function init()
     {
         parent::init();
-
-        // custom initialization code goes here
+        Yii::setAlias('@wslog', $this->getBasePath());
     }
+
 }
+

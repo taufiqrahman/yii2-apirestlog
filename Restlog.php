@@ -11,7 +11,7 @@ use Yii;
 use yii\base\Behavior;
 use yii\web\Response;
 use yii\web\ResponseEvent;
-use Rahmansoft\Apirestlog\models\ApiLog;
+use rahmansoft\apirestlog\models\ApiLog;
 use yii\rest\Controller;
 
 
